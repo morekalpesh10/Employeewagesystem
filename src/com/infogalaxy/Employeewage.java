@@ -11,6 +11,15 @@ public class Employeewage {
 		if(Check_Attendance==1) {
 			System.out.println("Employee is Present");
 			
+			double n = Math.floor(Math.random()*10)%2;
+	
+			if(n == 1)
+			{
+				System.out.println("Emplyoee Is Full time");
+			} else
+			{
+				System.out.println("Emplyoee is Part Time");
+			}
 		}else {
 			System.out.println("Employee is absent");
 		}
